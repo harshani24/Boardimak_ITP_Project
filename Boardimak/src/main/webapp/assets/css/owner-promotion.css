@@ -1,0 +1,174 @@
+/* Left Panel */ 
+
+.profile-picture,
+.profile-text,
+.profile-notification {
+    display: inline-block;
+}
+
+.profile-picture {
+    margin-right: 5%;
+}
+
+.profile-text h5,
+.profile-text p {
+    margin: 0;
+}
+
+.profile-text {
+    position: relative;
+    top: 15px;
+}
+
+.profile-text {
+    margin-right: 12%;
+}
+
+.wrapper-menu {
+    padding: 20% 0;
+}
+
+.wrapper-menu ul a li {
+    padding: 4% 6%;
+}
+
+.wrapper-menu ul a li {
+    color: #767676;
+}
+
+.wrapper-menu ul a li  {
+    color: #767676;
+}
+
+.wrapper-menu ul a li img {
+    margin-right: 10%;
+}
+
+.wrapper-menu ul a li:hover {
+    background-color: #edf0f6;
+    border-radius: 5px;
+}
+
+.active {
+    color: #2c305d !important;
+    font-weight: 600;
+    background-color: #edf0f6;
+    border-radius: 5px;
+    border-left: 5px solid;
+}
+
+.wrapper-help {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 100%;
+}
+
+.wrapper-help a {
+    font-weight: 600;
+}
+
+.wrapper-help img {
+    margin-right: 1%;
+}
+
+.modal-form{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.add-pro-modal{
+    padding-left: 10px;
+}
+
+.promotion-area{
+    border: 2px solid #2c305d;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    color:#767676 ;
+}
+
+.p-right-panel {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    padding: 3% 3% 0 3%;
+    background-color: #edf0f6;
+}
+
+.p-wrapper-body{
+	border: 5px solid white;
+	padding: 30px;
+	text-align: center;
+	height : 100%;
+	width:100%;
+}
+
+
+.pf-wrapper-body{
+	align :center;
+	width:100%;
+	
+}
+/* Right panel */ 
+.dashboard-body {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.title{
+    display:inline;
+    margin-right: 10px;
+}
+
+.btn-add-pro{
+    margin-bottom:10px;
+}
+
+.promotion-img{
+    width:40%;
+    height:40vh;
+    position: relative;
+    left: 35%;
+}
+
+.btn-middle{
+    position: relative;
+    left: 42%;
+}
+
+.mdl-text{
+    text-align: center;
+}
+
+.modal-btn{
+    position: relative;
+    left:40%;
+}
+
+.card{
+    border-radius: 0 0 20px 20px;
+    border: 2px solid #2c305d;
+    width: 25%;
+    margin-bottom: 10%;
+}
+
+.card-body{
+    padding-bottom: 0;
+    font-size: 10px;
+}
+ 
+.card-tags{
+    font-size: 13px;
+} 
+
+.page-link{
+    color: #2c305d;
+}
+.form{
+	margin-left:480px;
+	margin-top:50px;
+	
+}

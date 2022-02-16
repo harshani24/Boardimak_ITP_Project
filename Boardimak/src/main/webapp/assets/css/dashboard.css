@@ -1,0 +1,109 @@
+/* Left Panel */ 
+
+.profile-picture,
+.profile-text,
+.profile-notification {
+    display: inline-block;
+}
+
+.profile-picture {
+    margin-right: 5%;
+}
+
+.profile-text h6,
+.profile-text p {
+    margin: 0;
+}
+
+.profile-text {
+    position: relative;
+    top: 15px;
+}
+
+.profile-text {
+    margin-right: 12%;
+}
+
+.wrapper-menu {
+    padding: 20% 0;
+}
+
+.wrapper-menu ul a li {
+    padding: 4% 6%;
+}
+
+.wrapper-menu ul a li {
+    color: #767676;
+}
+
+.wrapper-menu ul a li  {
+    color: #767676;
+}
+
+.wrapper-menu ul a li img {
+    margin-right: 10%;
+}
+
+.wrapper-menu ul a li:hover {
+    background-color: #edf0f6;
+    border-radius: 5px;
+}
+
+.active {
+    color: #2c305d !important;
+    font-weight: 600;
+    background-color: #edf0f6;
+    border-radius: 5px;
+    border-left: 5px solid;
+}
+
+.wrapper-help {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 100%;
+}
+
+.wrapper-help a {
+    font-weight: 600;
+}
+
+.wrapper-help img {
+    margin-right: 1%;
+}
+
+
+/* Right panel */ 
+.dashboard-body {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3%;
+}
+
+.title{
+    display:inline;
+    margin-right: 10px;
+}
+
+.btn-add-prop{
+    margin-bottom:10px;
+}
+
+.property-img{
+    width:60%;
+    height:50vh;
+    position: relative;
+    left: 20%;
+}
+
+.btn-middle{
+    position: relative;
+    left: 40%;
+}
+
+.link-log-out {
+	float: right;
+    border: 2px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+p {
+    color: #767676;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+select {
+    outline: none;
+}
+
+input {
+    border: 2px solid #2c305d;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #767676;
+}
+
+select {
+    height: 40px;
+    border: 2px solid #2c305d;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #767676;
+    background-color: #fff;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:gray;
+    text-decoration: none;
+}
+
+
+/* Text color */
+
+.txt-green {
+    color: #4eb447;
+    font-weight: 600;
+}
+
+.txt-red {
+    color: #ff0404;
+    font-weight: 600;
+}
+
+
+
+/* Buttons */
+
+.btn-white {
+    background: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.btn-blue:hover {
+    background: white;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+header {
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.navbar-expand-lg{
+    width: 100%;
+}
+
+.home-buttons {
+    display: inline;
+    float: right;
+
+}
+
+.home-buttons a {
+    float: right;
+    text-decoration: none;
+}
+
+.log-in {
+    margin-left: 20px;
+}
+
+
+#Home-heading {
+    position: relative;
+    font-size: 60px;
+    font-weight: 900;
+    top: 20vh;
+    right: 0;
+    color: #fff;
+}
+
+.avl-property{
+    position: relative;
+    top: 20px;
+    font-weight: 900;
+}
+
+
+.btn-blue {
+    background: none;
+    color: #2c305d;
+    padding: 5px 20px;
+    border: 2px solid #2c305d;
+    border-radius: 5px;
+}
+
+.btn-blue:hover {
+    background: #2c305d;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #2c305d;
+    border-radius: 5px;
+}
+
+

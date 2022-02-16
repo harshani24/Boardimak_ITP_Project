@@ -1,0 +1,113 @@
+.section {
+    height: 100vh;
+    padding: 3%;
+}
+
+.wrapper-back-home img {
+    margin-right: 10px;
+}
+
+.wrapper-back-home p {
+    color: #2c305d;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 2px;
+}
+
+.wrapper-back-home p a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.row-body {
+    margin: 7% 0;
+}
+
+.custom-col-left {
+    border-right: 1px solid #2c305d
+}
+
+.wrapper-illustration {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper-illustration img {
+    width: 100%;
+    text-align: center;
+}
+
+.form-wrapper {
+    text-align: center;
+}
+
+.form-title {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.form-title p {
+    color: #000;
+}
+
+.wrapper-links {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper-links a:last-child {
+    float: right;
+}
+
+.btn-blue {
+    background-color: #2c305d;
+    color: #fff;
+    margin: 2% 0 7% 0;
+    width: 50%;
+}
+
+.btn-blue:hover {
+    background-color: #fff;
+    color: #2c305d;
+    margin: 2% 0 7% 0;
+    width: 50%;
+}
+
+.form-wrapper input {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.wrapper-help {
+    position: relative;
+    bottom: -70px;
+    left: 0;
+}
+
+.wrapper-help img {
+    margin-right: 10px;
+}
+
+.row-register-form input,
+.row-register-form select {
+	width: 100%;
+}
+
+.wrapper-spring-sec-validation {
+	color: red;
+    margin-bottom: 10px;
+}
+
+select {
+	border: 2px solid #2c305d;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #767676;
+    height: 40px;
+}

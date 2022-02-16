@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c305d;
+}
+
+p {
+    color: #767676;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+button:focus,
+a:focus,
+input:focus,
+select:focus {
+    outline: none;
+}
+
+input {
+    border: 2px solid #2c305d;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #767676;
+}
+
+a {
+    color: #2c305d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2c305d;
+    text-decoration: none;
+}
+
+.left-panel {
+    width: 25%;
+    height: 100vh;
+    padding: 2% 2% 0 2%;
+}
+
+.right-panel {
+    width: 75%;
+    height: 100vh;
+    overflow: scroll;
+    padding: 3% 3% 0 3%;
+    background-color: #edf0f6;
+}
+
+/* Text color */
+
+.txt-green {
+    color: #4eb447;
+    font-weight: 600;
+}
+
+.txt-red {
+    color: #ff0404;
+    font-weight: 600;
+}
+
+.txt-orange {
+    color: #ef8d00;
+    font-weight: 600;
+}
+
+
+/* Buttons */
+
+.btn-blue {
+    background: none;
+    color: #2c305d;
+    padding: 5px 20px;
+    border: 2px solid #2c305d;
+    border-radius: 5px;
+}
+
+.btn-blue:hover {
+    background: #2c305d;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #2c305d;
+    border-radius: 5px;
+}
+
